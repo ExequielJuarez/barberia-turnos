@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#0f0e0d">
+  <meta name="description" content="Barbería en Buenos Aires. Cortes clásicos, degradé y barba a navaja. Reservá tu turno online y confirmalo por WhatsApp.">
+  <title>Navaja & Co · Barbería</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/landing.css">
+</head>
+<body>
+  <header class="nav"><div class="wrap">
+    <a class="logo" href="#top">NAVAJA <b>&amp;</b> CO</a>
+    <a class="nav-cta" href="#turno">Sacar turno</a>
+  </div></header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="pole" aria-hidden="true"></div>
+      <div class="wrap">
+        <span class="kicker">Barbería · desde 2014</span>
+        <h1>Corte <em>fino.</em><br>Barba<br>a navaja.</h1>
+        <p>Sin vueltas: buen corte, buen trato y turno puntual. Reservá online en un minuto y confirmá por WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="btn-l" href="#turno">Reservar turno</a>
+          <a class="btn-l ghost" href="#servicios">Ver precios</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div>
+      <span>CORTE CLÁSICO ✦ DEGRADÉ ✦ BARBA A NAVAJA ✦ TOALLA CALIENTE ✦ </span><span>CORTE CLÁSICO ✦ DEGRADÉ ✦ BARBA A NAVAJA ✦ TOALLA CALIENTE ✦ </span>
+      <span>CORTE CLÁSICO ✦ DEGRADÉ ✦ BARBA A NAVAJA ✦ TOALLA CALIENTE ✦ </span><span>CORTE CLÁSICO ✦ DEGRADÉ ✦ BARBA A NAVAJA ✦ TOALLA CALIENTE ✦ </span>
+    </div></div>
+
+    <section id="servicios"><div class="wrap">
+      <h2 class="sec-h reveal">La <em>carta</em></h2>
+      <p class="sec-p reveal">Precios claros. Todos los servicios incluyen lavado y peinado.</p>
+      <div id="services"></div>
+    </div></section>
+
+    <section id="turno" class="book"><div class="wrap">
+      <div class="book-copy reveal">
+        <h2 class="sec-h">Sacá tu <em>turno</em></h2>
+        <p class="sec-p">Elegí servicio, día y horario. Te llega la confirmación por WhatsApp.</p>
+        <div class="info">
+          <span><strong>Dónde:</strong> <span data-cfg="address"></span></span>
+          <span><strong>Horario:</strong> <span data-cfg="hoursText"></span></span>
+        </div>
+      </div>
+      <div id="booking"></div>
+    </div></section>
+  </main>
+
+  <footer><div class="wrap"><span>© Navaja &amp; Co</span><span data-cfg="address"></span></div></footer>
+
+  <a class="wa-float" data-wa="Hola! Quiero consultar por un turno" aria-label="Escribinos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.4 15.1L2 22l5-1.6A9.9 9.9 0 1 0 12.04 2Zm5.8 14c-.25.7-1.4 1.3-1.95 1.35-.5.05-1.1.2-3.7-.8-3.1-1.2-5.1-4.4-5.25-4.6-.15-.2-1.25-1.65-1.25-3.15s.8-2.25 1.1-2.55c.3-.3.6-.35.8-.35h.55c.18 0 .42-.07.65.5.25.6.85 2.1.92 2.25.08.15.12.33.02.52-.1.2-.15.32-.3.5-.15.17-.3.38-.45.5-.15.15-.3.3-.13.6.18.3.78 1.28 1.68 2.07 1.15 1.02 2.12 1.35 2.42 1.5.3.15.48.12.65-.07.18-.2.75-.87.95-1.17.2-.3.4-.25.68-.15.27.1 1.75.83 2.05.98.3.15.5.22.57.35.08.12.08.72-.17 1.4Z"/></svg>
+  </a>
+  <script type="module" src="/js/landing.js"></script>
+</body>
+</html>

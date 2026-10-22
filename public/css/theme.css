@@ -1,0 +1,7 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f0e0d; --fg: #f1ece2; --muted: #9a9388; --card: #181614; --line: #2c2925;
+  --accent: #c8a45c; --accent-fg: #14110b; --radius: 4px;
+  --font-body: 'Barlow', system-ui, sans-serif; --font-display: 'Bebas Neue', Impact, sans-serif;
+}
+.toast { background: #f1ece2; color: #111; }
